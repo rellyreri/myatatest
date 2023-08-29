@@ -84,3 +84,4 @@ func _environmentDamage(damage):
 	print(damage)
 	EventBus.playerhealth -= damage
 	print("HP = ",EventBus.playerhealth)
+#AAAA
