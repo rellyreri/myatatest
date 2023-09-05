@@ -21,12 +21,12 @@ background_mode = 2
 sky = SubResource("Sky_n43qi")
 tonemap_mode = 2
 
-[sub_resource type="Resource" id="Resource_88adf"]
+[sub_resource type="Resource" id="Resource_76fyg"]
 script = ExtResource("5_3kqgl")
 selected = false
 active = false
 collsion = true
-vertex_points = PackedVector3Array(-8, -4, -10, -8, -4, 4, 6, -4, 4, 6, -4, -10, 6, 0, 4, 6, 0, -10, -8, 0, -10, -8, 0, 4)
+vertex_points = PackedVector3Array(-6, -4, -11, -6, -4, 3, 8, -4, 3, 8, -4, -11, 8, 0, 3, 8, 0, -11, -6, 0, -11, -6, 0, 3)
 vertex_selected = PackedByteArray(0, 0, 0, 0, 0, 0, 0, 0)
 active_vertex = -1
 edge_vertex_indices = PackedInt32Array(0, 1, 1, 2, 2, 3, 3, 0, 4, 5, 5, 3, 2, 4, 5, 6, 6, 0, 7, 6, 4, 7, 1, 7)
@@ -104,7 +104,7 @@ script = ExtResource("3_gshge")
 [node name="Block_0" type="Node" parent="CyclopsBlocks"]
 script = ExtResource("4_hlm4b")
 materials = Array[Material]([ExtResource("5_0sfod")])
-block_data = SubResource("Resource_88adf")
+block_data = SubResource("Resource_76fyg")
 
 [node name="Block_1" type="Node" parent="CyclopsBlocks"]
 script = ExtResource("4_hlm4b")
